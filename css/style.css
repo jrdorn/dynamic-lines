@@ -22,3 +22,26 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/* grid setup  */
+body {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+#imgWrapper {
+  width: 40em;
+  height: 40em;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  border: 1px solid red;
+}
+
+/* logo  */
+
+img {
+  width: 5em;
+}
