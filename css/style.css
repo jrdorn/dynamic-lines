@@ -1,7 +1,7 @@
 /* || General Setup  */
 
 body {
-  background-color: #0d0f10; /* matte black */
+  background-color: #0d0f10;
 }
 
 html,
@@ -44,4 +44,16 @@ body {
 
 img {
   width: 5em;
+  position: absolute;
+  left: 50vw;
+  bottom: 50vh;
+  cursor: pointer;
+}
+
+/* canvas setup */
+canvas {
+  width: 40em;
+  height: 40em;
+
+  border: 1px solid red;
 }
